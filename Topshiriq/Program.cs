@@ -16,11 +16,11 @@ namespace Topshiriq
             string yangison = "";
             while (son > 0)
             {
-                yangison = (son % 2) + yangison;
-                son /= 2;
+                yangison = (son % 8) + yangison;
+                son /= 8;
             }
 
-            Console.WriteLine($"2-lik sanoq sistemasidagi natija: {yangison}");
+            Console.WriteLine($"8-lik sanoq sistemasidagi natija: {yangison}");
         
     }
     }
