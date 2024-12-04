@@ -1,0 +1,7 @@
+D:\bulutli\Topshiriq\Topshiriq\bin\Debug\Topshiriq.exe.config
+D:\bulutli\Topshiriq\Topshiriq\bin\Debug\Topshiriq.exe
+D:\bulutli\Topshiriq\Topshiriq\bin\Debug\Topshiriq.pdb
+D:\bulutli\Topshiriq\Topshiriq\obj\Debug\Topshiriq.csproj.AssemblyReference.cache
+D:\bulutli\Topshiriq\Topshiriq\obj\Debug\Topshiriq.csproj.CoreCompileInputs.cache
+D:\bulutli\Topshiriq\Topshiriq\obj\Debug\Topshiriq.exe
+D:\bulutli\Topshiriq\Topshiriq\obj\Debug\Topshiriq.pdb
