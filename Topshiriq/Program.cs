@@ -10,18 +10,17 @@ namespace Topshiriq
     {
         static void Main(string[] args)
         {
-            Console.Write("10-lik sanoq sistemasidagi sonni kiriting: ");
-            int son = int.Parse(Console.ReadLine());
-
-            string yangison = "";
-            while (son > 0)
+            int n;
+            Console.WriteLine("n ni kiriting");
+            n=Int32.Parse(Console.ReadLine());
+            int s = 0;
+            for ( int i=1; i <= n; i++ )
             {
-                yangison = (son % 8) + yangison;
-                son /= 8;
+                s = s + i;
             }
 
-            Console.WriteLine($"8-lik sanoq sistemasidagi natija: {yangison}");
-        
-    }
+            Console.WriteLine("n ta sonning yigindisi ={0}",s);
+
+        }
     }
 }
