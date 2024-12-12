@@ -13,13 +13,13 @@ namespace Topshiriq
             int n;
             Console.WriteLine("n ni kiriting");
             n=Int32.Parse(Console.ReadLine());
-            int s = 0;
+            int s = 1;
             for ( int i=1; i <= n; i++ )
             {
-                s = s + i;
+                s = s * i;
             }
 
-            Console.WriteLine("n ta sonning yigindisi ={0}",s);
+            Console.WriteLine("n faktorial ={0}",s);
 
         }
     }
